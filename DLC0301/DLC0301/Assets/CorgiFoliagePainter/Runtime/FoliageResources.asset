@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984155e621c01143ae15fa5090f36e4, type: 3}
+  m_Name: FoliageResources
+  m_EditorClassIdentifier: 
+  SphereGizmoMaterial: {fileID: 2100000, guid: 7e1d5c267ae714d47b4b873a304bec26, type: 2}
+  InvalidGizmoMaterial: {fileID: 2100000, guid: 4b1c85efc7434324997ec719489d414c,
+    type: 2}
+  SphereGizmoMesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  CubeGizmoMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  IgnoreNoShadergraphWarning: 0
+  GizmoFoliageIcon: {fileID: 21300000, guid: d48bc89b69589b44d83ec039aef122d8, type: 3}
+  ProceduralMeshAssetPath: Assets
+  EditorFoliageMeshDatasPath: Assets

@@ -1,0 +1,43 @@
+{
+    "name": "CorgiFoliagePainterEditor",
+    "rootNamespace": "CorgiFoliagePainter.Editor",
+    "references": [
+        "GUID:f96f96453675cf747aedd71df7ecc87f",
+        "GUID:df380645f10b7bc4b97d4f5eb6303d95",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:457756d89b35d2941b3e7b37b4ece6f1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "FOLIAGE_FOUND_URP"
+        },
+        {
+            "name": "com.unity.render-pipelines.high-definition",
+            "expression": "",
+            "define": "FOLIAGE_FOUND_HDRP"
+        },
+        {
+            "name": "com.unity.shadergraph",
+            "expression": "",
+            "define": "FOLIAGE_FOUND_SHADERGRAPH"
+        },
+        {
+            "name": "com.unity.burst",
+            "expression": "",
+            "define": "FOLIAGE_FOUND_BURST"
+        }
+    ],
+    "noEngineReferences": false
+}
